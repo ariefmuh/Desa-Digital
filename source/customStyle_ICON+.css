@@ -1,0 +1,208 @@
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(40, 167, 69);
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(249, 247, 117);
+}
+
+.namaDesa {
+  color: #1769e3;
+}
+
+.kabDesa {
+  color: white;
+}
+
+.btn-layanan {
+  background-color: #4060be;
+}
+
+.btn-layanan:hover {
+  background-color: #22397d;
+}
+
+.btn-panduan-aplikasi {
+  color: #4060be;
+  border-color: #4060be;
+}
+
+.btn-panduan-aplikasi:hover {
+  background-color: #22397d;
+}
+
+.font-welcome {
+  color: white
+}
+
+.info-pengembangan {
+  color: white;
+}
+
+.btn-info-selengkapnya {
+  background-color: #163F5B;
+}
+
+.card-pengembangan {
+  background-color: white;
+}
+
+.btn-form-kerjasama {
+  color: white !important;
+  background-color: #163F5B;
+}
+
+.info-angka {
+  background-color: #223138;
+}
+
+.populasi {
+  background-color: #182227;
+}
+
+.jumlahKeterangan {
+  color: white;
+}
+
+.textKeterangan {
+  color: white;
+}
+
+.btn-infoAngka-selanjutnya {
+  background-color: #F26F17;
+}
+
+.penjelasanAplikasi {
+  background-color: #d0e6ff;
+}
+
+.beliDariDesa {
+  background-color: #d0e6ff;
+}
+
+.btn-next-kabar-desa {
+  background-color: #163F5B;
+}
+
+.link-berita-selanjutnya {
+  color: #4060be;
+}
+
+.harga {
+  color: #018A7A;
+}
+
+.btn-hubungi-penjual {
+  background-color: #4060be;
+  border-color: #4060be;
+}
+
+.btn-hubungi-penjual:hover {
+  background-color: #182858;
+}
+
+.above-footer {
+  background-color: #273a72;
+}
+
+.below-footer {
+  background-color: #E58B21;
+}
+
+.footer-text {
+  color: white;
+}
+
+.no-tlp-penting {
+  color: white;
+}
+
+.link-wisata-desa p {
+  color: #212121 !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #018A7A !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(249, 247, 117);
+}
+
+.firstHeader {
+  background-color: rgb(24, 34, 39, .5) !important;
+}
+
+.darkHeader {
+  background-color: rgb(24, 34, 39, .9) !important;
+}
+
+.byline {
+  color: rgba(255, 255, 255, .7);
+}
+
+#backgroundImg::after {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 90%, rgba(0, 0, 0, .8) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 90%, rgba(0, 0, 0, .8) 100%);
+}
+
+.rm-link {
+  color: #2AB567 !important;
+}
+
+.rm-link:hover {
+  color: #2AB567 !important;
+}
+
+.table .thead-dark th {
+  background-color: #11064f !important;
+}
+
+#pengelolaanPage .table .thead-dark th {
+  background-color: #11064f !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #4060be;
+}
+
+@media(max-width: 1025px) {
+  #backgroundImg::after {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 155%, rgba(0, 0, 0, .5) 100%)
+  }
+}
+
+@media(max-width: 980px) {
+  #backgroundImg::after {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, .8) 100%);
+  }
+}
+
+@media(max-width: 767px) {
+  .bg-light {
+    background-color: #223138 !important;
+  }
+
+  .font-welcome-mobile {
+    color: white;
+  }
+
+  .namaDesa {
+    color: #1769e3;
+  }
+
+  .kabDesa {
+    color: white;
+  }
+
+  #backgroundImg::after {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 155%, rgba(0, 0, 0, .5) 100%)
+  }
+}
